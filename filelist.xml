@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Saz Türk Enstrümanı" modversion="1.0.6" corepackage="False" steamworkshopid="2674924642" gameversion="0.21.6.0">
+  <Item file="%ModDir%/saz.xml" />
+  <Other file="%ModDir%/saz1.ogg" />
+  <Other file="%ModDir%/saz2.ogg" />
+  <Other file="%ModDir%/icon.png" />
+</contentpackage>
