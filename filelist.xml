@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Saz Türk Enstrümanı" modversion="1.0.6" corepackage="False" steamworkshopid="2674924642" gameversion="0.21.6.0">
+<contentpackage name="Saz Türk Enstrümanı" modversion="1.0.8" corepackage="False" steamworkshopid="2674924642" gameversion="1.7.7.0" expectedhash="612D5014341D54B14EDD9EEB8701A71B">
   <Item file="%ModDir%/saz.xml" />
   <Other file="%ModDir%/saz1.ogg" />
   <Other file="%ModDir%/saz2.ogg" />
+  <Other file="%ModDir%/saz3.ogg" />
+  <Other file="%ModDir%/saz4.ogg" />
+  <Other file="%ModDir%/saz5.ogg" />
+  <Other file="%ModDir%/saz6.ogg" />
   <Other file="%ModDir%/icon.png" />
 </contentpackage>

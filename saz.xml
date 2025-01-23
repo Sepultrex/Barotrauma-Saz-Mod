@@ -2,10 +2,10 @@
 <Items>
   <Item name="Saz" identifier="saz" category="Misc" Tags="smallitem" scale="0.5" description="Saz" price="300" impactsoundtag="impact_metal_light" isshootable="true">
     <PreferredContainer primary="crewcab" spawnprobability="0.05" notcampaign="true" />
-    <PreferredContainer secondary="wreckcrewcab,abandonedcrewcab" spawnprobability="0.1" />
+    <PreferredContainer secondary="wreckcrewcab,abandonedcrewcab" spawnprobability="0.3" />
     <Price baseprice="50">
-      <Price storeidentifier="merchantoutpost" minavailable="1" />
-      <Price storeidentifier="merchantcity" minavailable="1" />
+      <Price storeidentifier="merchantoutpost" minavailable="2" />
+      <Price storeidentifier="merchantcity" minavailable="2" />
       <Price storeidentifier="merchantresearch" sold="false" />
       <Price storeidentifier="merchantmilitary" sold="false" />
       <Price storeidentifier="merchantmine" sold="false" />
@@ -25,6 +25,10 @@
       <StatusEffect type="OnUse" target="Character">
         <sound file="%ModDir%/saz1.ogg" type="OnUse" selectionmode="CharacterSpecific" range="550" loop="true" />
         <sound file="%ModDir%/saz2.ogg" type="OnUse" selectionmode="CharacterSpecific" range="550" loop="true" />
+        <sound file="%ModDir%/saz3.ogg" type="OnUse" selectionmode="CharacterSpecific" range="550" loop="true" />
+        <sound file="%ModDir%/saz4.ogg" type="OnUse" selectionmode="CharacterSpecific" range="550" loop="true" />
+        <sound file="%ModDir%/saz5.ogg" type="OnUse" selectionmode="CharacterSpecific" range="550" loop="true" />
+        <sound file="%ModDir%/saz6.ogg" type="OnUse" selectionmode="CharacterSpecific" range="550" loop="true" />
       </StatusEffect>
     </Holdable>
   </Item>
